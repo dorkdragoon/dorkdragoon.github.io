@@ -1,0 +1,41 @@
+.test-class{
+    width: 400px;
+    margin:110px auto 0;
+    text-align: center;
+    top: 50%;
+  }
+
+/* "Bubbly Button" JS and CSS code by https://codepen.io/nourabusoud */
+/* (However, edited heavily) */
+
+.Roll01 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	display: inline-block;
+	font-size: 1.1em;
+	 padding: 0.7em 1em;
+	 margin-top: 10px;
+	 margin-bottom: 50px;
+	 -webkit-appearance: none;
+	 appearance: none;
+	 background-color: rgba(83, 83, 112, 1.0);
+	 color: #fff;
+	 border-radius: 7px;
+	 border: none;
+	 cursor: pointer;
+	 position: relative;
+	 transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+	 box-shadow: 0 2px 25px rgba(83, 83, 112, 0.5);
+    text-decoration:none;
+    outline:none;
+}
+
+.Roll01:active {
+    padding-bottom:12px;
+	padding-left:14px;
+	padding-right:14px;
+	padding-top:11px;
+    top:1px;
+    border: none;
+    outline:none;
+	background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
+}
